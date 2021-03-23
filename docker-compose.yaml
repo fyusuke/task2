@@ -13,7 +13,7 @@ services:
     stdin_open: true
   db:
     image: mysql:5.7
-    hostname: engineer-exam-mysql-host
+    container_name: engineer-exam-mysql-host
     volumes:
       - mysql_data:/var/lib/mysql/
     environment:
